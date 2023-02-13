@@ -1,0 +1,15 @@
+{% extends "pages/master.html" %}
+{% load i18n %}
+
+{% block content %}
+  <h1>{% trans "Pages" %}</h1>
+  
+  <ul>
+    {% for page in pages %}
+      <li><a href="{% url 'pages:detail' page.slug %}">{{ page.title }}</a></li>
+
+    {% empty %}
+        <li>{% trans "No Pages" %}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

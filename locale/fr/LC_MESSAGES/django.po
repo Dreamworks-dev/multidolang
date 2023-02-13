@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-11 00:02+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\comments\models.py:16
+msgid "language"
+msgstr "langue"
+
+#: .\comments\models.py:23 .\news\models.py:23 .\pages\models.py:23
+msgid "body"
+msgstr "corps"
+
+#: .\news\models.py:9 .\pages\models.py:9
+msgid "slug"
+msgstr "limace"
+
+#: .\news\models.py:16 .\pages\models.py:16
+msgid "title"
+msgstr "titre"
+
+#: .\news\templates\news\detail.html:5 .\pages\templates\pages\detail.html:5
+msgid "Title"
+msgstr "Titre"
+
+#: .\news\templates\news\detail.html:6 .\pages\templates\pages\detail.html:6
+msgid "Body"
+msgstr "Corps"
+
+#: .\news\templates\news\detail.html:7 .\pages\templates\pages\detail.html:7
+msgid "Comments"
+msgstr "Commentaires"
+
+#: .\news\templates\news\detail.html:12 .\pages\templates\pages\detail.html:12
+msgid "No Comments"
+msgstr "Sans commentaires"
+
+#: .\news\templates\news\index.html:5 .\news\templates\news\master.html:9
+msgid "News"
+msgstr "Nouvelles"
+
+#: .\news\templates\news\index.html:12
+msgid "No news"
+msgstr "Pas de nouvelles"
+
+#: .\pages\templates\pages\index.html:5 .\pages\templates\pages\master.html:9
+msgid "Pages"
+msgstr "Pages"
+
+#: .\pages\templates\pages\index.html:12
+msgid "No Pages"
+msgstr "Aucune page"

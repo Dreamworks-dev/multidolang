@@ -1,0 +1,15 @@
+{% extends "news/master.html" %}
+{% load i18n %}
+
+{% block content %}
+  <h1>{% trans "News" %}</h1>
+  
+  <ul>
+    {% for x in news %}
+      <li><a href="{% url 'news:detail' x.slug %}">{{ x.title }}</a></li>
+
+    {% empty %}
+        <li>{% trans "No news" %}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
