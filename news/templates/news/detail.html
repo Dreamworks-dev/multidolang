@@ -1,0 +1,15 @@
+{% extends "news/master.html" %}
+{% load i18n %}
+
+{% block content %}
+    <h1>{% trans "Title" %}: {{news.title}}</h1>
+    <h2>{% trans "Body" %}: {{news.body}}</h2>
+    <h2>{% trans "Comments" %}</h2>
+        {% for comment in comments %}
+            <li>{{comment.body}}</li>
+  
+        {% empty%}
+            <li>{% trans "No Comments" %}</li>
+        {% endfor %}
+
+{% endblock %}
